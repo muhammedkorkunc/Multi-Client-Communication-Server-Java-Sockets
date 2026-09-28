@@ -1,0 +1,8 @@
+*.class
+build/
+dist/
+nbproject/private/
+watermark*.py
+sign_*.py
+/tmp/clean_net_wm.pdf
+.DS_Store
