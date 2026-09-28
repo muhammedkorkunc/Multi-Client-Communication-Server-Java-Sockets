@@ -1,8 +1,29 @@
+cat << 'EOF' > README.md
+
 # 🌐 Multi-Client Team Communication Server & Client Architecture (Java Sockets)
 
 ### Çoklu İstemci Destekleyen Proje Ekibi İletişim Sunucusu ve GUI İstemci Sistemi
 
 Bu depo; Fatih Sultan Mehmet Vakıf Üniversitesi Bilgisayar Mühendisliği **Bilgisayar Ağları (Computer Networks)** dersi kapsamında geliştirilen; soket programlama (Socket Programming), çoklu iş parçacığı (Multi-threading), uçtan uca dosya transferi, anlık mesajlaşma ve proje anahtarı (Project Key) bazlı grup odası mimarisini barındırır.
+
+---
+
+## 🖼️ Uygulama Ekran Görüntüleri & Arayüz Önizlemesi
+
+|                    Kullanıcı Girişi & Kimlik Doğrulama                     |              Ana Sohbet Paneli & Aktif Kullanıcı Listesi               |
+| :------------------------------------------------------------------------: | :--------------------------------------------------------------------: |
+|        <img src="1.png" width="380" alt="Login & Register Panel"/>         |       <img src="2.png" width="480" alt="Main Chat & User List"/>       |
+| _Benzersiz kullanıcı adı ve parola ile veritabanı kontrollü giriş ekranı._ | _Aktif takım arkadaşlarını listeleme ve genel/özel mesajlaşma paneli._ |
+
+|                Çoklu İstemci Canlı Sohbet Senkronizasyonu                 |                Emoji Desteği & Resim Gönderim Hattı                |
+| :-----------------------------------------------------------------------: | :----------------------------------------------------------------: |
+|     <img src="3.png" width="480" alt="Multi-Client Live Chat Sync"/>      | <img src="4.png" width="480" alt="Emoji & Image Sharing Support"/> |
+| _Eşzamanlı iki istemcinin soket hattı üzerinden çift yönlü mesajlaşması._ |  _Emoji desteği ve istemciler arası zengin medya/belge aktarımı._  |
+
+|                  BlurHash / Aşamalı Resim İletim Denetimi                  |
+| :------------------------------------------------------------------------: |
+| <img src="5.png" width="700" alt="Image Transfer and BlurHash Rendering"/> |
+| _Görüntü aktarımında BlurHash ve önizleme destekli medya yönetim motoru._  |
 
 ---
 
